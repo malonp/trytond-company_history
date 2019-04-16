@@ -25,6 +25,4 @@ from .company import *
 
 
 def register():
-    Pool.register(
-        Company,
-        module='company_history', type_='model')
+    Pool.register(Company, module='company_history', type_='model')

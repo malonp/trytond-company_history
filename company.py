@@ -33,4 +33,3 @@ class Company(metaclass=PoolMeta):
     def __setup__(cls):
         super(Company, cls).__setup__()
         cls._history = True
-
